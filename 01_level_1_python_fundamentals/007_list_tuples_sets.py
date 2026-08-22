@@ -1,4 +1,10 @@
 # <<<<<<<<<<<<<<<<<<<<< Lists, Tuples & Sets >>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+# List → Use when you need an ordered collection that can change (add, remove, sort) and can contain duplicates.
+
+# Tuple → Use when you need an ordered collection that should never change (fixed data, like coordinates or records).
+
+# Set → Use when you need a collection of unique values only, don’t care about order, and want to do fast membership checks or mathematical operations (union, intersection, difference).
 # Collections, indexing, adding/removing, sorting, set operations
 
 # <<<<<< Lists (Ordered, mutable) >>>>>>>>>>>
@@ -30,3 +36,4 @@ print(a.union(b)) # {1, 2, 3, 4, 5} - it will union both sets and remove the com
 print(a.intersection(b)) # {3} - It will show common value from both sets.
 print(a.difference(b)) # {1, 2} - It will give values from a sets which is not present in b set.
 print(b.difference(a)) # {4, 5} - It will give values from b sets which is not present in a set.
+
